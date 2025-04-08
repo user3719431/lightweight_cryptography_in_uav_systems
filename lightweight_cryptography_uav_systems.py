@@ -9,7 +9,7 @@ import csv
 from ina219 import INA219, DeviceRangeError
 from threading import Thread
 
-TEST_MESSAGE = "in a case of superiority".encode()
+TEST_MESSAGE = "Wake up, Neo... The Matrix has you... Follow the white rabbit. Knock, knock, Neo.".encode()
 ALGORITHMS = {
     "Ascon": "/home/raspberry-pi/diploma/algorithms/ascon",
     "Elephant": "/home/raspberry-pi/diploma/algorithms/elephant",
